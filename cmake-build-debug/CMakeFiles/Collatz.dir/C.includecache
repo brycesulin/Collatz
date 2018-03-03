@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brycesulin/Desktop/Github Projects/Operating Systems Class Projects/Collatz/Collatz-Consumer.c
+stdio.h
+-
+stdlib.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+
+/Users/brycesulin/Desktop/Github Projects/Operating Systems Class Projects/Collatz/Collatz-Producer.c
+stdio.h
+-
+stdlib.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+zconf.h
+-
+
